@@ -24,11 +24,11 @@ namespace wtflog.Controllers
         public string Index()
         {
             //Log.Information("In the controller!");
-            _logger.LogInformation("IIIIIIIIIIIII Controller LogInformation");
+            _logger.LogInformation("******** Controller LogInformation");
             _logger.LogWarning("IIIIIIIIIIIII Controller LogWarning");
-            _logger.LogDebug("IIIIIIIIIIIII Controller   LogDebug");
+            _logger.LogDebug("*********** Controller   LogDebug");
             //_logger.LogFatal("IIIIIIIIIIIII Controller   LogFatal");
-            _logger.LogError("IIIIIIIIIIIII Controller   LogError");
+            _logger.LogError("********* Controller   LogError");
             //_logger.LogVerbose("IIIIIIIIIIIII Controller Verbose");
 
             return "View();";
